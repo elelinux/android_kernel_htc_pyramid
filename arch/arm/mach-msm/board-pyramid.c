@@ -6158,7 +6158,7 @@ static void __init msm8x60_init(struct msm_board_data *board_data)
 	raw_speed_bin = readl(QFPROM_SPEED_BIN_ADDR);
 	speed_bin = raw_speed_bin & 0xF;
 
-	msm_tsens_early_init(&pyr_tsens_pdata);
+	//msm_tsens_early_init(&pyr_tsens_pdata);
 
 	/*
 	 * Initialize RPM first as other drivers and devices may need
